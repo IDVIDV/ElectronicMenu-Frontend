@@ -1,28 +1,29 @@
-# Create T3 App
+# Электронное меню ресторана
+Фронтэнд для Web приложения, в котором можно просматривать блюда ресторана, создавать заказы в ресторане
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Требования:
+* На странице должен быть список позиций (блюд) в меню
+* У позиций есть характеристики:
+  * Название
+  * Картинка блюда
+  * Цена
+  * Вес
+  * Калорийность (на 100г)
+  * Является ли блюдо полностью подходящим для веганов
+  * Краткий состав
+* Позиции могут быть отсортированы по:
+  * Названию
+  * Цене
+  * Калорийности
+* Пользователь должен иметь возможность залогиниться на сайте
+* Залогиненный пользователь может составлять электронный заказ и делать с ним следующие действия:
+  * Бронировать столик для заказа в указанную дату
+  * Добавлять / Удалять блюдо в заказ
+  * Смотреть итоговую стоимость
+  * Оплачивать заказ
+* Должна быть предусмотренна возможность входа на сайт с правами администратора
+* Администратор должен иметь следующие возможности:
+  * Добавлять / Изменять / Удалять позиции в меню
 
-## What's next? How do I make an app with this?
-
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
-
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
-
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
-
-## Learn More
-
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+### TODO
+* Доделать функционал с заказами
